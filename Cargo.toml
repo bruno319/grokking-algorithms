@@ -1,5 +1,5 @@
 [package]
-name = "algorithm_studies"
+name = "grokking_algorithms"
 version = "0.1.0"
 authors = ["bruno319 <brunovieira319@hotmail.com>"]
 edition = "2018"

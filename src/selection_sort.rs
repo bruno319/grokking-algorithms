@@ -1,5 +1,5 @@
 
-fn selection_sort<T>(mut list: Vec<T>) -> Vec<T>
+pub fn selection_sort<T>(mut list: Vec<T>) -> Vec<T>
     where T: PartialOrd + Copy
 {
     let mut sorted_list = Vec::with_capacity(list.len());

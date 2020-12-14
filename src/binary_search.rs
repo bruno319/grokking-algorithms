@@ -1,5 +1,5 @@
 
-fn binary_search<'a, 'b, T>(list: &'a mut [T], item: &'b T) -> Option<&'a T>
+pub fn binary_search<'a, 'b, T>(list: &'a mut [T], item: &'b T) -> Option<&'a T>
     where T: Ord + PartialEq
 {
     list.sort();
